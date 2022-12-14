@@ -57,8 +57,6 @@ Output:
   - It saves automatically after 10 images.
   - If there is an error it may be because the image has an issue.
   - If you want to start from scratch, just delete the file `./data/labels.csv` and folder `./data/images_transformed`
-  - The images in the folder `./data/images_transformed` can be used to train the model with the repository [manhole-cover-retrainer](https://github.com/FiratSaritas/manhole-cover-retrainer)
-  - If you have done this process before and there are already new images in the classifier, you may get duplicate names when you run the classifier again. if necessary, change the START_IMAGE_DIR on [line 8](https://github.com/FiratSaritas/manhole-cover-labelling/blob/main/program/prepare_images.py#L8) of `./program/prepare_images.py` to a different number.
+  - The images in the folder `./data/images_transformed` can be used to train the model with the repository [manhole-cover-retrainer](https://github.com/tozzodatascience/manhole-cover-retrainer)
+  - If you have done this process before and there are already new images in the classifier, you may get duplicate names when you run the classifier again. if necessary, change the START_IMAGE_DIR on [line 8](https://github.com/tozzodatascience/manhole-cover-labelling/blob/main/program/prepare_images.py#L8) of `./program/prepare_images.py` to a different number.
 
-## Credits
-This is a continuation of the repository [labelly](https://github.com/SimonStaehli/labelly) and the actual work was created on the other repository.
