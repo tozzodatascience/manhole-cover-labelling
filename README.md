@@ -61,5 +61,4 @@ Output:
   - If you have done this process before and there are already new images in the classifier, you may get duplicate names when you run the classifier again. if necessary, change the START_IMAGE_DIR on [line 8](https://github.com/FiratSaritas/manhole-cover-labelling/blob/main/program/prepare_images.py#L8) of `./program/prepare_images.py` to a different number.
 
 ## Credits
-
 This is a continuation of the repository [labelly](https://github.com/SimonStaehli/labelly) and the actual work was created on the other repository.
